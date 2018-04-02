@@ -1,0 +1,9 @@
+#!/usr/bin/perl -w
+
+use esmith::Build::CreateLinks qw(:all);
+
+my $event = "nethserver-rainloop-update";
+
+event_actions($event, 
+             'nethserver-rainloop_permissions-conf' => '30'
+);
