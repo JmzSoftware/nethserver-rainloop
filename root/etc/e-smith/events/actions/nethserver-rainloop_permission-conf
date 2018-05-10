@@ -1,5 +1,0 @@
-#!/usr/bin/perl
-
-system('chown apache:apache -R /var/www/html/rainloop');
-
-exit;
